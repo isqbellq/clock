@@ -60,10 +60,12 @@ h1 {
 .seconds {
 	width: 51%;
 	background: #222;
+	opacity: 0.5;
 }
 .minutes {
 	width: 45%;
 	left: 6%;
+	opacity: 0.95;
 }
 .hours {
 	width: 35%;
