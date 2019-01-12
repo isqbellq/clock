@@ -14,7 +14,7 @@ h1 {
 	font-size: 70px;
 	text-align: center;
 	color: #000;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 .clock {
 	background-color: rgba(170, 170, 170, .4);
@@ -22,7 +22,7 @@ h1 {
 	height: 22rem;
 	border-radius: 50%;
 	border: 14px solid #222;
-	margin: 50px auto;
+	margin: 35px auto 0;
 	position: relative;
 	padding: 1.3rem;
 	-webkit-box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.75);
