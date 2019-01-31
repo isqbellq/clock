@@ -5,6 +5,7 @@ const minsHand = document.querySelector(".minutes");
 const hoursHand = document.querySelector(".hours");
 const hands = document.querySelectorAll(".hand");
 
+
 function setDate() {
 	const now = new Date();
 
@@ -28,3 +29,11 @@ function setDate() {
 }	
 
 setInterval(setDate, 1000);
+
+function removePreloadClass() {
+	const body = document.querySelector("body");
+	body.classList.remove("preload");
+}
+
+setTimeout(removePreloadClass, 2000);
+
