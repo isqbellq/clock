@@ -31,9 +31,10 @@ function setDate() {
 setInterval(setDate, 1000);
 
 function removePreloadClass() {
-	const body = document.querySelector("body");
-	body.classList.remove("preload");
+	const clockCont = document.querySelector(".clock-container");
+	clockCont.classList.remove("preload");
+	clockCont.classList.remove("hidden");
 }
 
-setTimeout(removePreloadClass, 2000);
+setTimeout(removePreloadClass, 1050);
 
