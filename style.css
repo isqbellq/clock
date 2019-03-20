@@ -34,9 +34,9 @@ h1 {
 	margin: 35px auto 0;
 	position: relative;
 	padding: 1.3rem;
-	-webkit-box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: inset 0 10px 20px 0 hsla(0, 0%, 0%, 0.3);
+	-moz-box-shadow: inset 0 10px 20px 0 hsla(0, 0%, 0%, 0.3);
+	box-shadow: inset 0 10px 20px 0 hsla(0, 0%, 0%, 0.3);
 }
 .clock-container {
 	position: relative;
@@ -68,8 +68,7 @@ h1 {
 }
 .seconds {
 	width: 51%;
-	background: #222;
-	opacity: 0.5;
+	opacity: 0.3;
 }
 .minutes {
 	width: 45%;
@@ -97,10 +96,7 @@ h1 {
 		width: 200px;
 		height: 200px;
 		margin-top: 5%;
-		-webkit-box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.4);
-		-moz-box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.4);
-		box-shadow: 10px 10px 65px 5px rgba(0,0,0,0.4);
-	}
+}
 	.hand {
 		height: 6px;
 	}
